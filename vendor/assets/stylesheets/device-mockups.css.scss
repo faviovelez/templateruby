@@ -255,30 +255,30 @@
 .device-mockup.iphone6 > .device,
 .device-mockup.iphone6.black > .device,
 .device-mockup.iphone6.portrait.black > .device {
-	background-image: url("/assets/iphone_6_port_black.png");
+	background-image: image-url("iphone_6_port_black.png");
 }
 
 .device-mockup.iphone6.landscape > .device,
 .device-mockup.iphone6.landscape.black > .device {
-	background-image: url("/assets/iphone_6_land_black.png");
+	background-image: image-url("iphone_6_land_black.png");
 }
 
 .device-mockup.iphone6.white > .device,
 .device-mockup.iphone6.portrait.white > .device {
-	background-image: url("/assets/iphone_6_port_white.png");
+	background-image: image-url("iphone_6_port_white.png");
 }
 
 .device-mockup.iphone6.landscape.white > .device {
-	background-image: url("/assets/iphone_6_land_white.png");
+	background-image: image-url("iphone_6_land_white.png");
 }
 
 .device-mockup.iphone6.gold > .device,
 .device-mockup.iphone6.portrait.gold > .device {
-	background-image: url("/assets/iphone_6_port_gold.png");
+	background-image: image-url("iphone_6_port_gold.png");
 }
 
 .device-mockup.iphone6.landscape.gold > .device {
-	background-image: url("/assets/iphone_6_land_gold.png");
+	background-image: image-url("iphone_6_land_gold.png");
 }
 
 .device-mockup.iphone6 > .device > .screen,
@@ -314,30 +314,30 @@
 .device-mockup.iphone6_plus > .device,
 .device-mockup.iphone6_plus.black > .device,
 .device-mockup.iphone6_plus.portrait.black > .device {
-	background-image: url("/assets/iphone_6_plus_black_port.png");
+	background-image: image-url("iphone_6_plus_black_port.png");
 }
 
 .device-mockup.iphone6_plus.landscape > .device,
 .device-mockup.iphone6_plus.landscape.black > .device {
-	background-image: url("/asset/iphone_6_plus_black_land.png");
+	background-image: image-url("iphone_6_plus_black_land.png");
 }
 
 .device-mockup.iphone6_plus.white > .device,
 .device-mockup.iphone6_plus.portrait.white > .device {
-	background-image: url("/assets/iphone_6_plus_white_port.png");
+	background-image: image-url("iphone_6_plus_white_port.png");
 }
 
 .device-mockup.iphone6_plus.landscape.white > .device {
-	background-image: url("/assets/iphone_6_plus_white_land.png");
+	background-image: image-url("iphone_6_plus_white_land.png");
 }
 
 .device-mockup.iphone6_plus.gold > .device,
 .device-mockup.iphone6_plus.portrait.gold > .device {
-	background-image: url("/assets/iphone_6_plus_gold_port.png");
+	background-image: image-url("iphone_6_plus_gold_port.png");
 }
 
 .device-mockup.iphone6_plus.landscape.gold > .device {
-	background-image: url("/assets/iphone_6_plus_gold_land.png");
+	background-image: image-url("iphone_6_plus_gold_land.png");
 }
 
 .device-mockup.iphone6_plus > .device > .screen,

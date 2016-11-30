@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Templateruby</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New theme practice</title>
+
   <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'simple-line-icons', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'device-mockups', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'font-awesome', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'new-age', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Lato', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'https://fonts.googleapis.com/css?family=Muli', media: 'all', 'data-turbolinks-track' => true %>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'bootstrap', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'jquery.easing.min', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'jqueryeasing.min', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'new-age', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'jquerycountdown', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'countdownactivate', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="page-top">
+
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a class="page-scroll" href="#download">Download</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#features">Features</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
 
 <%= yield %>
 
@@ -35,6 +73,5 @@
         </ul>
     </div>
 </footer>
-
 </body>
 </html>

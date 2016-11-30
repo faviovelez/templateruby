@@ -1,6 +1,5 @@
 (function($) {
     "use strict"; // Start of use strict
-
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -26,6 +25,6 @@
         offset: {
             top: 50
         }
-    })
+    });
 
 })(jQuery); // End of use strict
