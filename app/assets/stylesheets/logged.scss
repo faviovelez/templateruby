@@ -30,6 +30,7 @@
   background:black;
   opacity: .7;
   border-radius: 3rem;
+  margin: 0;
 }
 
 .header {
@@ -38,6 +39,10 @@
   width: 100%;
 }
 
-.field {
+.text-white {
+  color: white;
+}
+
+.text-black {
   color: black;
 }
