@@ -1,0 +1,16 @@
+<div class="background">
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Comment:</strong>
+    <%= @reply.comment %>
+  </p>
+
+  <p>
+    <strong>Subject:</strong>
+    <%= @reply.subject %>
+  </p>
+
+  <%= link_to 'Edit', edit_reply_path(@reply) %> |
+  <%= link_to 'Back', replies_path %>
+</div>

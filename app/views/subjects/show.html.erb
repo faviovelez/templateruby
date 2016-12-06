@@ -1,0 +1,21 @@
+<div class="background">
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= @subject.title %>
+  </p>
+
+  <p>
+    <strong>Content:</strong>
+    <%= @subject.content %>
+  </p>
+
+  <p>
+    <strong>User:</strong>
+    <%= @subject.user %>
+  </p>
+
+  <%= link_to 'Edit', edit_subject_path(@subject) %> |
+  <%= link_to 'Back', subjects_path %>
+</div>

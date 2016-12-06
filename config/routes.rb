@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  post 'subjects/mail_to_welcome'
+
+  root 'pages#index'
+
+  resources :replies
+
+  resources :subjects
+
   get 'logged/download'
 
   get 'logged/features'
@@ -12,6 +20,5 @@ Rails.application.routes.draw do
   get 'pages/contact'
 
   devise_for :users
-  root 'pages#index'
   get 'pages/index'
 end

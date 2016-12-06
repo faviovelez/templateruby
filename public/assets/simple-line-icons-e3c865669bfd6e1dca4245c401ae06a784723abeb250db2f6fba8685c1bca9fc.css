@@ -1,0 +1,1139 @@
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url("../assets/Simple-Line-Icons.eot?v=2.3.2");
+  src: url("../assets/Simple-Line-Icons.eot?v=2.3.2#iefix") format("embedded-opentype"), url("../assets/Simple-Line-Icons.woff2?v=2.3.2") format("woff2"), url("../assets/Simple-Line-Icons.ttf?v=2.3.2") format("truetype"), url("../assets/Simple-Line-Icons.woff?v=2.3.2") format("woff"), url("../assets/Simple-Line-Icons.svg?v=2.3.2#simple-line-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ Use the following CSS code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+*/
+/* line 12, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user,
+.icon-people,
+.icon-user-female,
+.icon-user-follow,
+.icon-user-following,
+.icon-user-unfollow,
+.icon-login,
+.icon-logout,
+.icon-emotsmile,
+.icon-phone,
+.icon-call-end,
+.icon-call-in,
+.icon-call-out,
+.icon-map,
+.icon-location-pin,
+.icon-direction,
+.icon-directions,
+.icon-compass,
+.icon-layers,
+.icon-menu,
+.icon-list,
+.icon-options-vertical,
+.icon-options,
+.icon-arrow-down,
+.icon-arrow-left,
+.icon-arrow-right,
+.icon-arrow-up,
+.icon-arrow-up-circle,
+.icon-arrow-left-circle,
+.icon-arrow-right-circle,
+.icon-arrow-down-circle,
+.icon-check,
+.icon-clock,
+.icon-plus,
+.icon-minus,
+.icon-close,
+.icon-exclamation,
+.icon-organization,
+.icon-trophy,
+.icon-screen-smartphone,
+.icon-screen-desktop,
+.icon-plane,
+.icon-notebook,
+.icon-mustache,
+.icon-mouse,
+.icon-magnet,
+.icon-energy,
+.icon-disc,
+.icon-cursor,
+.icon-cursor-move,
+.icon-crop,
+.icon-chemistry,
+.icon-speedometer,
+.icon-shield,
+.icon-screen-tablet,
+.icon-magic-wand,
+.icon-hourglass,
+.icon-graduation,
+.icon-ghost,
+.icon-game-controller,
+.icon-fire,
+.icon-eyeglass,
+.icon-envelope-open,
+.icon-envelope-letter,
+.icon-bell,
+.icon-badge,
+.icon-anchor,
+.icon-wallet,
+.icon-vector,
+.icon-speech,
+.icon-puzzle,
+.icon-printer,
+.icon-present,
+.icon-playlist,
+.icon-pin,
+.icon-picture,
+.icon-handbag,
+.icon-globe-alt,
+.icon-globe,
+.icon-folder-alt,
+.icon-folder,
+.icon-film,
+.icon-feed,
+.icon-drop,
+.icon-drawer,
+.icon-docs,
+.icon-doc,
+.icon-diamond,
+.icon-cup,
+.icon-calculator,
+.icon-bubbles,
+.icon-briefcase,
+.icon-book-open,
+.icon-basket-loaded,
+.icon-basket,
+.icon-bag,
+.icon-action-undo,
+.icon-action-redo,
+.icon-wrench,
+.icon-umbrella,
+.icon-trash,
+.icon-tag,
+.icon-support,
+.icon-frame,
+.icon-size-fullscreen,
+.icon-size-actual,
+.icon-shuffle,
+.icon-share-alt,
+.icon-share,
+.icon-rocket,
+.icon-question,
+.icon-pie-chart,
+.icon-pencil,
+.icon-note,
+.icon-loop,
+.icon-home,
+.icon-grid,
+.icon-graph,
+.icon-microphone,
+.icon-music-tone-alt,
+.icon-music-tone,
+.icon-earphones-alt,
+.icon-earphones,
+.icon-equalizer,
+.icon-like,
+.icon-dislike,
+.icon-control-start,
+.icon-control-rewind,
+.icon-control-play,
+.icon-control-pause,
+.icon-control-forward,
+.icon-control-end,
+.icon-volume-1,
+.icon-volume-2,
+.icon-volume-off,
+.icon-calendar,
+.icon-bulb,
+.icon-chart,
+.icon-ban,
+.icon-bubble,
+.icon-camrecorder,
+.icon-camera,
+.icon-cloud-download,
+.icon-cloud-upload,
+.icon-envelope,
+.icon-eye,
+.icon-flag,
+.icon-heart,
+.icon-info,
+.icon-key,
+.icon-link,
+.icon-lock,
+.icon-lock-open,
+.icon-magnifier,
+.icon-magnifier-add,
+.icon-magnifier-remove,
+.icon-paper-clip,
+.icon-paper-plane,
+.icon-power,
+.icon-refresh,
+.icon-reload,
+.icon-settings,
+.icon-star,
+.icon-symbol-female,
+.icon-symbol-male,
+.icon-target,
+.icon-credit-card,
+.icon-paypal,
+.icon-social-tumblr,
+.icon-social-twitter,
+.icon-social-facebook,
+.icon-social-instagram,
+.icon-social-linkedin,
+.icon-social-pinterest,
+.icon-social-github,
+.icon-social-google,
+.icon-social-reddit,
+.icon-social-skype,
+.icon-social-dribbble,
+.icon-social-behance,
+.icon-social-foursqare,
+.icon-social-soundcloud,
+.icon-social-spotify,
+.icon-social-stumbleupon,
+.icon-social-youtube,
+.icon-social-dropbox {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 209, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user:before {
+  content: "\e005";
+}
+
+/* line 212, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-people:before {
+  content: "\e001";
+}
+
+/* line 215, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user-female:before {
+  content: "\e000";
+}
+
+/* line 218, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user-follow:before {
+  content: "\e002";
+}
+
+/* line 221, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user-following:before {
+  content: "\e003";
+}
+
+/* line 224, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-user-unfollow:before {
+  content: "\e004";
+}
+
+/* line 227, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-login:before {
+  content: "\e066";
+}
+
+/* line 230, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-logout:before {
+  content: "\e065";
+}
+
+/* line 233, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-emotsmile:before {
+  content: "\e021";
+}
+
+/* line 236, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-phone:before {
+  content: "\e600";
+}
+
+/* line 239, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-call-end:before {
+  content: "\e048";
+}
+
+/* line 242, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-call-in:before {
+  content: "\e047";
+}
+
+/* line 245, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-call-out:before {
+  content: "\e046";
+}
+
+/* line 248, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-map:before {
+  content: "\e033";
+}
+
+/* line 251, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-location-pin:before {
+  content: "\e096";
+}
+
+/* line 254, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-direction:before {
+  content: "\e042";
+}
+
+/* line 257, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-directions:before {
+  content: "\e041";
+}
+
+/* line 260, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-compass:before {
+  content: "\e045";
+}
+
+/* line 263, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-layers:before {
+  content: "\e034";
+}
+
+/* line 266, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-menu:before {
+  content: "\e601";
+}
+
+/* line 269, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-list:before {
+  content: "\e067";
+}
+
+/* line 272, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-options-vertical:before {
+  content: "\e602";
+}
+
+/* line 275, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-options:before {
+  content: "\e603";
+}
+
+/* line 278, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-down:before {
+  content: "\e604";
+}
+
+/* line 281, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-left:before {
+  content: "\e605";
+}
+
+/* line 284, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-right:before {
+  content: "\e606";
+}
+
+/* line 287, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-up:before {
+  content: "\e607";
+}
+
+/* line 290, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-up-circle:before {
+  content: "\e078";
+}
+
+/* line 293, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-left-circle:before {
+  content: "\e07a";
+}
+
+/* line 296, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-right-circle:before {
+  content: "\e079";
+}
+
+/* line 299, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-arrow-down-circle:before {
+  content: "\e07b";
+}
+
+/* line 302, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-check:before {
+  content: "\e080";
+}
+
+/* line 305, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-clock:before {
+  content: "\e081";
+}
+
+/* line 308, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-plus:before {
+  content: "\e095";
+}
+
+/* line 311, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-minus:before {
+  content: "\e615";
+}
+
+/* line 314, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-close:before {
+  content: "\e082";
+}
+
+/* line 317, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-exclamation:before {
+  content: "\e617";
+}
+
+/* line 320, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-organization:before {
+  content: "\e616";
+}
+
+/* line 323, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-trophy:before {
+  content: "\e006";
+}
+
+/* line 326, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-screen-smartphone:before {
+  content: "\e010";
+}
+
+/* line 329, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-screen-desktop:before {
+  content: "\e011";
+}
+
+/* line 332, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-plane:before {
+  content: "\e012";
+}
+
+/* line 335, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-notebook:before {
+  content: "\e013";
+}
+
+/* line 338, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-mustache:before {
+  content: "\e014";
+}
+
+/* line 341, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-mouse:before {
+  content: "\e015";
+}
+
+/* line 344, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-magnet:before {
+  content: "\e016";
+}
+
+/* line 347, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-energy:before {
+  content: "\e020";
+}
+
+/* line 350, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-disc:before {
+  content: "\e022";
+}
+
+/* line 353, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-cursor:before {
+  content: "\e06e";
+}
+
+/* line 356, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-cursor-move:before {
+  content: "\e023";
+}
+
+/* line 359, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-crop:before {
+  content: "\e024";
+}
+
+/* line 362, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-chemistry:before {
+  content: "\e026";
+}
+
+/* line 365, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-speedometer:before {
+  content: "\e007";
+}
+
+/* line 368, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-shield:before {
+  content: "\e00e";
+}
+
+/* line 371, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-screen-tablet:before {
+  content: "\e00f";
+}
+
+/* line 374, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-magic-wand:before {
+  content: "\e017";
+}
+
+/* line 377, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-hourglass:before {
+  content: "\e018";
+}
+
+/* line 380, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-graduation:before {
+  content: "\e019";
+}
+
+/* line 383, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-ghost:before {
+  content: "\e01a";
+}
+
+/* line 386, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-game-controller:before {
+  content: "\e01b";
+}
+
+/* line 389, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-fire:before {
+  content: "\e01c";
+}
+
+/* line 392, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-eyeglass:before {
+  content: "\e01d";
+}
+
+/* line 395, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-envelope-open:before {
+  content: "\e01e";
+}
+
+/* line 398, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-envelope-letter:before {
+  content: "\e01f";
+}
+
+/* line 401, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-bell:before {
+  content: "\e027";
+}
+
+/* line 404, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-badge:before {
+  content: "\e028";
+}
+
+/* line 407, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-anchor:before {
+  content: "\e029";
+}
+
+/* line 410, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-wallet:before {
+  content: "\e02a";
+}
+
+/* line 413, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-vector:before {
+  content: "\e02b";
+}
+
+/* line 416, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-speech:before {
+  content: "\e02c";
+}
+
+/* line 419, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-puzzle:before {
+  content: "\e02d";
+}
+
+/* line 422, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-printer:before {
+  content: "\e02e";
+}
+
+/* line 425, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-present:before {
+  content: "\e02f";
+}
+
+/* line 428, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-playlist:before {
+  content: "\e030";
+}
+
+/* line 431, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-pin:before {
+  content: "\e031";
+}
+
+/* line 434, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-picture:before {
+  content: "\e032";
+}
+
+/* line 437, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-handbag:before {
+  content: "\e035";
+}
+
+/* line 440, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-globe-alt:before {
+  content: "\e036";
+}
+
+/* line 443, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-globe:before {
+  content: "\e037";
+}
+
+/* line 446, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-folder-alt:before {
+  content: "\e039";
+}
+
+/* line 449, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-folder:before {
+  content: "\e089";
+}
+
+/* line 452, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-film:before {
+  content: "\e03a";
+}
+
+/* line 455, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-feed:before {
+  content: "\e03b";
+}
+
+/* line 458, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-drop:before {
+  content: "\e03e";
+}
+
+/* line 461, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-drawer:before {
+  content: "\e03f";
+}
+
+/* line 464, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-docs:before {
+  content: "\e040";
+}
+
+/* line 467, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-doc:before {
+  content: "\e085";
+}
+
+/* line 470, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-diamond:before {
+  content: "\e043";
+}
+
+/* line 473, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-cup:before {
+  content: "\e044";
+}
+
+/* line 476, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-calculator:before {
+  content: "\e049";
+}
+
+/* line 479, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-bubbles:before {
+  content: "\e04a";
+}
+
+/* line 482, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-briefcase:before {
+  content: "\e04b";
+}
+
+/* line 485, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-book-open:before {
+  content: "\e04c";
+}
+
+/* line 488, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-basket-loaded:before {
+  content: "\e04d";
+}
+
+/* line 491, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-basket:before {
+  content: "\e04e";
+}
+
+/* line 494, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-bag:before {
+  content: "\e04f";
+}
+
+/* line 497, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-action-undo:before {
+  content: "\e050";
+}
+
+/* line 500, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-action-redo:before {
+  content: "\e051";
+}
+
+/* line 503, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-wrench:before {
+  content: "\e052";
+}
+
+/* line 506, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-umbrella:before {
+  content: "\e053";
+}
+
+/* line 509, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-trash:before {
+  content: "\e054";
+}
+
+/* line 512, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-tag:before {
+  content: "\e055";
+}
+
+/* line 515, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-support:before {
+  content: "\e056";
+}
+
+/* line 518, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-frame:before {
+  content: "\e038";
+}
+
+/* line 521, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-size-fullscreen:before {
+  content: "\e057";
+}
+
+/* line 524, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-size-actual:before {
+  content: "\e058";
+}
+
+/* line 527, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-shuffle:before {
+  content: "\e059";
+}
+
+/* line 530, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-share-alt:before {
+  content: "\e05a";
+}
+
+/* line 533, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-share:before {
+  content: "\e05b";
+}
+
+/* line 536, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-rocket:before {
+  content: "\e05c";
+}
+
+/* line 539, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-question:before {
+  content: "\e05d";
+}
+
+/* line 542, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-pie-chart:before {
+  content: "\e05e";
+}
+
+/* line 545, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-pencil:before {
+  content: "\e05f";
+}
+
+/* line 548, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-note:before {
+  content: "\e060";
+}
+
+/* line 551, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-loop:before {
+  content: "\e064";
+}
+
+/* line 554, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-home:before {
+  content: "\e069";
+}
+
+/* line 557, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-grid:before {
+  content: "\e06a";
+}
+
+/* line 560, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-graph:before {
+  content: "\e06b";
+}
+
+/* line 563, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-microphone:before {
+  content: "\e063";
+}
+
+/* line 566, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-music-tone-alt:before {
+  content: "\e061";
+}
+
+/* line 569, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-music-tone:before {
+  content: "\e062";
+}
+
+/* line 572, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-earphones-alt:before {
+  content: "\e03c";
+}
+
+/* line 575, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-earphones:before {
+  content: "\e03d";
+}
+
+/* line 578, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-equalizer:before {
+  content: "\e06c";
+}
+
+/* line 581, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-like:before {
+  content: "\e068";
+}
+
+/* line 584, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-dislike:before {
+  content: "\e06d";
+}
+
+/* line 587, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-start:before {
+  content: "\e06f";
+}
+
+/* line 590, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-rewind:before {
+  content: "\e070";
+}
+
+/* line 593, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-play:before {
+  content: "\e071";
+}
+
+/* line 596, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-pause:before {
+  content: "\e072";
+}
+
+/* line 599, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-forward:before {
+  content: "\e073";
+}
+
+/* line 602, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-control-end:before {
+  content: "\e074";
+}
+
+/* line 605, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-volume-1:before {
+  content: "\e09f";
+}
+
+/* line 608, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-volume-2:before {
+  content: "\e0a0";
+}
+
+/* line 611, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-volume-off:before {
+  content: "\e0a1";
+}
+
+/* line 614, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-calendar:before {
+  content: "\e075";
+}
+
+/* line 617, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-bulb:before {
+  content: "\e076";
+}
+
+/* line 620, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-chart:before {
+  content: "\e077";
+}
+
+/* line 623, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-ban:before {
+  content: "\e07c";
+}
+
+/* line 626, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-bubble:before {
+  content: "\e07d";
+}
+
+/* line 629, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-camrecorder:before {
+  content: "\e07e";
+}
+
+/* line 632, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-camera:before {
+  content: "\e07f";
+}
+
+/* line 635, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-cloud-download:before {
+  content: "\e083";
+}
+
+/* line 638, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-cloud-upload:before {
+  content: "\e084";
+}
+
+/* line 641, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-envelope:before {
+  content: "\e086";
+}
+
+/* line 644, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-eye:before {
+  content: "\e087";
+}
+
+/* line 647, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-flag:before {
+  content: "\e088";
+}
+
+/* line 650, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-heart:before {
+  content: "\e08a";
+}
+
+/* line 653, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-info:before {
+  content: "\e08b";
+}
+
+/* line 656, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-key:before {
+  content: "\e08c";
+}
+
+/* line 659, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-link:before {
+  content: "\e08d";
+}
+
+/* line 662, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-lock:before {
+  content: "\e08e";
+}
+
+/* line 665, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-lock-open:before {
+  content: "\e08f";
+}
+
+/* line 668, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-magnifier:before {
+  content: "\e090";
+}
+
+/* line 671, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-magnifier-add:before {
+  content: "\e091";
+}
+
+/* line 674, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-magnifier-remove:before {
+  content: "\e092";
+}
+
+/* line 677, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-paper-clip:before {
+  content: "\e093";
+}
+
+/* line 680, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-paper-plane:before {
+  content: "\e094";
+}
+
+/* line 683, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-power:before {
+  content: "\e097";
+}
+
+/* line 686, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-refresh:before {
+  content: "\e098";
+}
+
+/* line 689, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-reload:before {
+  content: "\e099";
+}
+
+/* line 692, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-settings:before {
+  content: "\e09a";
+}
+
+/* line 695, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-star:before {
+  content: "\e09b";
+}
+
+/* line 698, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-symbol-female:before {
+  content: "\e09c";
+}
+
+/* line 701, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-symbol-male:before {
+  content: "\e09d";
+}
+
+/* line 704, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-target:before {
+  content: "\e09e";
+}
+
+/* line 707, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-credit-card:before {
+  content: "\e025";
+}
+
+/* line 710, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-paypal:before {
+  content: "\e608";
+}
+
+/* line 713, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-tumblr:before {
+  content: "\e00a";
+}
+
+/* line 716, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-twitter:before {
+  content: "\e009";
+}
+
+/* line 719, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-facebook:before {
+  content: "\e00b";
+}
+
+/* line 722, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-instagram:before {
+  content: "\e609";
+}
+
+/* line 725, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-linkedin:before {
+  content: "\e60a";
+}
+
+/* line 728, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-pinterest:before {
+  content: "\e60b";
+}
+
+/* line 731, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-github:before {
+  content: "\e60c";
+}
+
+/* line 734, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-google:before {
+  content: "\e60d";
+}
+
+/* line 737, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-reddit:before {
+  content: "\e60e";
+}
+
+/* line 740, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-skype:before {
+  content: "\e60f";
+}
+
+/* line 743, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-dribbble:before {
+  content: "\e00d";
+}
+
+/* line 746, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-behance:before {
+  content: "\e610";
+}
+
+/* line 749, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-foursqare:before {
+  content: "\e611";
+}
+
+/* line 752, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-soundcloud:before {
+  content: "\e612";
+}
+
+/* line 755, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-spotify:before {
+  content: "\e613";
+}
+
+/* line 758, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-stumbleupon:before {
+  content: "\e614";
+}
+
+/* line 761, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-youtube:before {
+  content: "\e008";
+}
+
+/* line 764, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/simple-line-icons.css.scss */
+.icon-social-dropbox:before {
+  content: "\e00c";
+}

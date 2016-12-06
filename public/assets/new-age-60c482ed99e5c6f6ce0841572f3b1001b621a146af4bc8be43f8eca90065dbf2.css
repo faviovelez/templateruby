@@ -1,0 +1,633 @@
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* line 7, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.heading-font {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* line 12, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.body-font {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* line 15, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 20, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 25, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* line 28, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #fdcc52;
+}
+
+/* line 34, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+a:hover,
+a:focus {
+  color: #fcbd20;
+}
+
+/* line 38, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+/* line 44, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+hr.light {
+  border-color: white;
+}
+
+/* line 47, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* line 57, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* line 62, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* line 72, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .navbar-header .navbar-brand {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #fdcc52;
+}
+
+/* line 78, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #fcbd20;
+}
+
+/* line 82, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .navbar-header .navbar-toggle {
+  font-size: 12px;
+  color: #222222;
+  padding: 8px 10px;
+}
+
+/* line 87, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .nav > li > a {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+/* line 93, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  color: #222222;
+}
+
+/* line 97, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+
+/* line 101, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+
+/* line 106, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  /* line 111, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  /* line 115, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* line 118, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+
+  /* line 122, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* line 126, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+
+  /* line 130, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+
+  /* line 134, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #222222;
+  }
+
+  /* line 137, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #fdcc52;
+  }
+
+  /* line 141, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+
+  /* line 145, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #fdcc52;
+  }
+}
+/* line 150, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background-image: url(/assets/bg-pattern.png), #7b4397;
+  /* fallback for old browsers */
+  background-image: url(/assets/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: url(/assets/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+/* line 163, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .header-content {
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
+}
+
+/* line 168, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* line 173, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+/* line 178, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .header-content .header-content-inner .list-badges {
+  margin-bottom: 25px;
+}
+
+/* line 181, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .header-content .header-content-inner .list-badges img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+/* line 185, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .device-container {
+  max-width: 300px;
+  margin: 0 auto 100px;
+}
+
+/* line 189, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+header .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+  /* line 193, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header {
+    min-height: 100%;
+  }
+
+  /* line 196, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 100vh;
+  }
+
+  /* line 201, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* line 208, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
+
+  /* line 211, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 218, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+/* line 222, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section {
+  padding: 100px 0;
+}
+
+/* line 225, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section h2 {
+  font-size: 50px;
+}
+
+/* line 228, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+
+/* line 232, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+
+/* line 236, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* line 240, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+
+/* line 243, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.download .badges .badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  /* line 247, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 253, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+/* line 257, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+
+/* line 260, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+
+/* line 263, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+
+/* line 266, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .device-container,
+section.features .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* line 271, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .device-container {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  /* line 275, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  section.features .device-container {
+    margin-bottom: 0;
+  }
+}
+/* line 279, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* line 283, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .feature-item h3 {
+  font-size: 30px;
+}
+
+/* line 286, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.features .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 992px) {
+  /* line 294, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: none;
+  }
+}
+/* line 299, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.cta {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url(/assets/bg-cta.jpg);
+  padding: 250px 0;
+}
+
+/* line 309, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 313, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.cta .cta-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  /* line 321, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+/* line 325, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 333, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact {
+  text-align: center;
+}
+
+/* line 336, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+/* line 340, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact h2 i {
+  color: #dd4b39;
+}
+
+/* line 343, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+
+/* line 346, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+
+/* line 355, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+
+/* line 358, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+
+/* line 361, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+
+/* line 364, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+
+/* line 367, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+
+/* line 370, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+
+/* line 373, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+/* line 379, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 383, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+footer ul {
+  margin-bottom: 0;
+}
+
+/* line 386, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 390, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+
+/* line 396, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.bg-primary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+
+/* line 401, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.text-primary {
+  color: #fdcc52;
+}
+
+/* line 404, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 408, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.btn-outline {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+}
+
+/* line 413, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
+
+/* line 421, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+
+/* line 427, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 11px;
+}
+
+/* line 431, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+
+/* line 436, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+
+/* line 441, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+img::selection {
+  color: white;
+  background: transparent;
+}
+
+/* line 445, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
+/* line 449, /home/faviovelez/webapps/practicas/templateruby/templateruby/vendor/assets/stylesheets/new-age.css.scss */
+body {
+  webkit-tap-highlight-color: #222222;
+}
