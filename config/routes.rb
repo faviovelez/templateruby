@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  post 'subjects/mail_to_welcome'
-
   root 'pages#index'
+
+  post 'pages/upload_file'
+
+  post 'pages/mail_to_welcome'
+
 
   resources :replies
 

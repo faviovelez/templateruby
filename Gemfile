@@ -47,5 +47,6 @@ group :development do
 end
 
 gem 'devise'
-
 gem 'cancancan', '~> 1.10'
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem 'rmagick', '~> 2.15', '>= 2.15.4'

@@ -19,4 +19,6 @@ class User < ActiveRecord::Base
     !!(roles.find_by_name('Editor'))
   end
 
+  
+
 end

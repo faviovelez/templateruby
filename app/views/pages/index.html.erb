@@ -140,3 +140,12 @@
         </ul>
     </div>
 </section>
+
+<div class="field">
+  <%= form_for @user, url: pages_upload_file_path, method: :post do |f| %>
+    <%= f.label :file %>
+    <%= f.file_field :file %> <br />
+    <%= f.submit %>
+  <% end %>
+</div>
+<%= flash[:alert] %>
