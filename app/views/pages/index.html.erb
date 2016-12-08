@@ -148,4 +148,8 @@
     <%= f.submit %>
   <% end %>
 </div>
+
 <%= flash[:alert] %>
+<% @user.galleries.each do |image| %>
+  <%= image_tag(image.file_url(:thumb)) %>
+<% end %>

@@ -5,7 +5,7 @@ class PagesController < ApplicationController
 
   def upload_file
     @user = current_user
-    @user.file = params[:user][:file]
+    @user.galleries << Gallery.create(file: params[:user][:file])
     if @user.save
       redirect_to root_path, alert: 'Se ha guardado con éxito la imagen'
     else
