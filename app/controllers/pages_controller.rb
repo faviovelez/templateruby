@@ -13,4 +13,15 @@ class PagesController < ApplicationController
     end
   end
 
+  def upload_profile_pic
+    @user = current_user
+    @user.file = params[:user][:file]
+    if @user.save
+      redirect_to root_path, alert: 'Se ha guardado su archivo de perfil'
+    else
+      redirect_to root_path, alert: 'Por favor intente de nuevo, hubo un error'
+    end
+  end
+
+
 end

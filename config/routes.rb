@@ -3,8 +3,9 @@ Rails.application.routes.draw do
 
   post 'pages/upload_file'
 
-  post 'pages/mail_to_welcome'
+  post 'pages/upload_profile_pic'
 
+  post 'pages/mail_to_welcome'
 
   resources :replies
 
@@ -22,6 +23,8 @@ Rails.application.routes.draw do
 
   get 'pages/contact'
 
-  devise_for :users
+  devise_for :users, controllers: { omniauth_callbacks: "callbacks" }
+
   get 'pages/index'
+
 end

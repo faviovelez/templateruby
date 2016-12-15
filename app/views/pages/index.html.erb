@@ -142,7 +142,7 @@
 </section>
 
 <div class="field">
-  <%= form_for @user, url: pages_upload_file_path, method: :post do |f| %>
+  <%= form_for @user, url: pages_upload_profile_pic_path, method: :post do |f| %>
     <%= f.label :file %>
     <%= f.file_field :file %> <br />
     <%= f.submit %>
@@ -150,6 +150,6 @@
 </div>
 
 <%= flash[:alert] %>
-<% @user.galleries.each do |image| %>
-  <%= image_tag(image.file_url(:thumb)) %>
-<% end %>
+<%# @user.galleries.each do |image| %>
+  <%# image_tag(image.file_url(:thumb)) %>
+<%# end %>

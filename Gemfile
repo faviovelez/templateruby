@@ -35,7 +35,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'dotenv-rails'
 end
 
 group :development do
@@ -50,3 +49,7 @@ gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 gem 'rmagick', '~> 2.15', '>= 2.15.4'
+gem 'omniauth-facebook'
+gem 'fog', '>=1.15.0'
+gem 'pry-rails'
+gem 'dotenv-rails'
